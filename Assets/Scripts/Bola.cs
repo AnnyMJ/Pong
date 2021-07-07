@@ -130,6 +130,6 @@ public class Bola : MonoBehaviour {
     }
     void Update () {
         //Incremento la velocidad de la bola
-        velocidad = velocidad + 0.1f;
+        velocidad = velocidad * golesDerecha * golesIzquierda;
     }
 }
